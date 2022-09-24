@@ -1,0 +1,47 @@
+.main-container{
+    height: 100vh;
+    width: 900px;
+    background-color: gray;
+    display: flex;
+}
+
+
+.box-1{
+    height: 400px;
+    width: 40%;
+    background-color:red;
+}
+
+.box-2{
+    height: 100px;
+    width: 600px;
+    background-color:lightgreen;
+}
+
+.container1{
+display: flex;
+}
+
+.box-3{
+height: 300px;
+width: 50%;
+background-color: blueviolet;
+}
+
+.box-4{
+    height: 150px;
+    width:300px;
+    background-color:red;
+}
+
+.box-5{
+    height: 150px;
+    width: 300px;
+    background-color:yellow;
+}
+
+
+
+
+
+

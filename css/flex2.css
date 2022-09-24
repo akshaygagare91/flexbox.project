@@ -1,0 +1,42 @@
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color:tomato;
+    display: flex;
+}
+
+.box-1{
+    height: 515px;
+    width: 50%;
+    background-color:green ;
+    margin: 5px;
+}
+
+
+.box-2{
+    height: 265px;
+    width: 531px;
+    background-color: yellow;
+    margin: 5px;
+
+}
+
+.container1{
+    display: flex;
+
+}
+
+
+.box-3{
+    height: 240px;
+    width: 52%;
+    background-color: blueviolet;
+    margin: 5px;
+}
+
+.box-4{
+    height: 240px;
+    width: 52%;
+    background-color: blueviolet;
+    margin: 5px;
+}

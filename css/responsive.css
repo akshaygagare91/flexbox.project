@@ -1,0 +1,297 @@
+
+ /* Extra small devices (phones, 600px and down) */
+ @media only screen and (max-width: 600px) {
+    
+.main-box{
+    height: 100vh;
+    background-color:darkred;
+}
+
+.clg{
+   margin-top: -92%;
+   margin-left: 22%;
+   color: white; 
+   letter-spacing:15px;
+   font-size: 21px;
+}
+
+.make{
+    margin-left: 19%;
+    margin-top: 5%;
+    color: white;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.btn{
+    margin-left:34%;
+    height: 45px; width:37%;
+    border-radius: 25px; font-size: 16px;
+    border:none;
+    background-color: red; color: white;
+}
+
+.btn:hover{
+    background-color: brown;
+}
+
+.box-2{
+    background-color: black;
+    width: 100%;
+    height: 66px; margin-top:76px;
+}
+
+.box-2:hover{
+    background-color:darkcyan ;
+}
+
+h5{
+    color: white; 
+    margin-left:37px;
+    font-size: 21px;
+}
+
+h6{
+    color: white;
+    margin-left: 770px; margin-top: -20px; font-size: 25px;
+}
+
+.box-3{
+    background-color:green;
+    width: 100%;
+    height:372px;
+    margin-top: -36px;
+}
+
+.art{
+    position: relative;
+    bottom: -59px;
+    margin-left: 51px;
+    font-size: 31px;
+    font-weight: bold;
+    color: darkred;
+}
+
+.the{
+    font-size: 20px;
+    margin-top:78px;
+    width: 300px;
+    margin-left:10px;
+    line-height:19px;
+}
+
+.box-4{
+    background-color: blue;
+    width: 100%;
+    height: 420px;
+}
+
+.box-5{
+    background-color:white;
+    width:56%;
+    height:260px;
+    position: relative;
+    top: -653px;
+    left:56px;
+    border-radius: 10px;
+}
+
+.our{
+    padding: 25px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.we{
+    margin:20px;
+    font-size:13px;
+}
+
+p{
+    font-size:13px;
+    margin-left: 15px;
+}
+
+.box-6{
+    background-color:red;
+    width: 100%;
+    height: 1100px;
+    margin-top: -100px;
+}
+
+
+.box-7{
+    background-color:skyblue;
+    width: 100%;
+    height: 400px;
+    /* float: left; */
+}
+
+
+.box-8{
+    background-color:blue;
+    width: 100%;
+    height: 400px;
+    margin-top: -34px;
+    /* float: left; */
+}
+
+
+.box-9{
+    background-color:skyblue;
+    width:100%;
+    height: 400px;
+    margin-top: -40px;
+    /* float: left; */
+}
+
+.pro{
+    padding: 30px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    /* color: white; */
+}
+
+hr{
+    width:20%;
+    margin-top: -40px;
+}
+
+.for{
+    line-height:22px;
+    margin-left: 80px;
+    font-size:19px;
+    color: white;
+    width: 200px;
+    margin-top: 20px;
+    
+}
+
+.btn1{
+    height: 50px; width:50%;
+    margin-left: 84px;
+    border-radius: 50px;
+    background-color: brown;
+    color: white;
+    border: none;
+}
+
+.btn1:hover{
+    background-color: grey;
+}
+
+.box-10{
+    /* background-color: blueviolet; */
+    height: 650px;
+    width: 100%;
+    position: relative; margin-top: -29px;
+}
+
+.box-11{
+    background-color:red;
+    height: 400px;
+    width: 100%;
+    margin-top: 122px;
+
+}
+
+.more{
+    padding: 30px;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.btn2{
+    margin-left:90px;
+    height: 50px; width: 40%;
+    border-radius: 50px;
+    color: white; font-size: 10px;
+    background-color: brown; border: none;
+}
+
+.btn2:hover{
+    background-color: grey;
+}
+
+.box-12{
+    background-color:pink;
+    height: 250px;
+    width: 100%;
+    margin-top: 35px;
+    
+}
+
+
+
+.box-13{
+    background-color:pink;
+    height: 400px;
+    
+}
+
+
+.box-14{
+    background-color:rebeccapurple;
+    height: 400px;
+    width:100%;
+    /* float: left; */
+}
+
+.box-15{
+    background-color:red;
+    height: 400px;
+    width:100%;
+    /* float: left; */
+}
+.box-16{
+    background-color:orange;
+    height: 400px;
+    width: 100%;
+    /* float: left; */
+}
+
+.box-17{
+    background-color:purple;
+    height: 400px;
+    width:100%;
+    /* float: left; */
+}
+
+.box-18{
+    background-color: black;
+    height: 300px;
+    position: relative;
+    margin-top: 1200px;
+}
+
+.han{
+    color: white;
+    margin-left: px; 
+    font-size: 40px;
+    padding: 40px;
+    letter-spacing:5px;
+}
+
+.col{
+    margin-top: -60px; margin-left:px;
+    letter-spacing: 20px;
+}
+
+span{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+  }
+ /* Small devices (portrait tablets and large phones, 600px and
+ up) */
+ @media only screen and (min-width: 600px) {}
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {}
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {}
+ /* Extra large devices (large laptops and desktops, 1200px and
+ up) */
+ @media only screen and (min-width: 1200px) {}

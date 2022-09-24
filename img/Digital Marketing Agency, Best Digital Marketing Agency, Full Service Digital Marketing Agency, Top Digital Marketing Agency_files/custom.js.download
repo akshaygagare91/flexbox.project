@@ -1,0 +1,126 @@
+
+ $('#solution').owlCarousel({
+  loop: true,
+  margin: 20,
+  dots: false,
+  navigation: true,
+  autoplay: true,
+      autoplaySpeed: 1000,
+    navText: ["<img src='images/left-arrow.png'>","<img src='images/right-arrow.png'>"],
+  responsiveClass: true,
+  responsive: {
+      0: {
+      items: 2
+    },
+    360: {
+      items: 2
+    },
+     480: {
+      items: 4
+    },
+    768: {
+      items: 6
+    },
+    1000: {
+      items: 6
+    }
+  }
+});
+
+  $('#testimonials-owl').owlCarousel({
+  loop: true,
+  margin: 20,
+  dots: true,
+  navigation: true,
+  autoplay: true,
+      autoplaySpeed: 1000,
+    navText: ["<img src='images/left-arrow.png'>","<img src='images/right-arrow.png'>"],
+  responsiveClass: true,
+  responsive: {
+      0: {
+      items: 1
+    },
+    360: {
+      items: 1
+    },
+     480: {
+      items: 1
+    },
+    991: {
+      items: 2
+    },
+    1000: {
+      items: 2
+    }
+  }
+});
+
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+// smooth scrolling start
+// var $root = $('html, body');
+
+// $('#myNavbar > ul > li > a').click(function () {
+//     $root.animate({
+//         scrollTop: $( $.attr(this, 'href') ).offset().top
+//     }, 500);
+
+//     return false;
+// });
+// smooth scrolling end
+
+$('a[href*="#"]:not([href="#"])').click(function() {
+
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        if (target.length) {
+            $('html, body').animate({
+                scrollTop: target.offset().top-80
+            }, 1000);
+            return false;
+        }
+    }
+});
+
+
+// counter 
+$('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+
+});
+
+// counter end

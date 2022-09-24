@@ -1,0 +1,168 @@
+
+
+*{
+    margin: 0; padding: 0;
+}
+
+.main-box{
+    height: 100vh;width: 100%; background-color: rgb(255, 0, 55);
+}
+
+.top-navbar{
+    height: 10%; width: 100%; background-color:rgb(209, 202, 202); 
+}
+h5{
+    padding: 15px;  margin-left: 50px;
+    
+}
+
+.mail{
+    margin-top: -30px; margin-left: 50%;
+}
+
+.mail:hover{
+    color: brown;
+}
+
+.number{
+    margin-top: -18px; margin-left: 77%;
+}
+.number:hover{
+    color: brown;
+}
+
+.navbar{
+    height: 70px; width: 100%; background-color:white;
+}
+
+.logo{
+    margin-left: 70px; letter-spacing: 2px; font-size: 22px;
+    padding: 10px;
+}
+
+.we{
+    margin-top: -13px; font-size: 10px; margin-left: 60px; font-weight: bold;
+}
+
+li{
+    margin-top: -50px; margin-left: 400px;  list-style: none;
+}
+a{
+    float: left; padding: 13px;
+    text-decoration: none; color: black; font-weight: bold;
+}
+.box-1{
+    background-color:blue; height: 500px; width: 100%;
+}
+
+.box-2{
+    background-color:red; height: 700px; width: 100%;
+}
+
+.our{
+    padding: 35px;
+}
+
+hr{
+  background-color:black; width: 60px; margin-left: 450px; margin-top: -15px;
+}
+
+.box-3{
+    background-color: blueviolet; width: 90%; height: 580px; margin-left: 5%; 
+}
+.box-4{
+    background-color:white; width: 30%; height: 260px; float: left; margin: 10px;
+    
+}
+
+b{
+font-size: 13px; line-height: 35px;
+}
+p{
+    margin-top: 70px; padding: 10px; 
+}
+
+b:hover{
+    color: brown;
+}
+.box-5{
+    background-color:white; width: 30%; height: 260px; float:left; margin: 10px;
+}
+
+.box-6{
+    background-color:white; width: 30%; height: 260px; float:left; margin: 10px; position:relative;
+}
+.box-7{
+    background-color:white; width: 30%; height: 260px; float: left; margin: 10px;
+    
+}
+
+.box-8{
+    background-color:white; width: 30%; height: 260px; float:left; margin: 10px;
+}
+
+.box-9{
+    background-color:white; width: 30%; height: 260px; float:left; margin: 10px; position:relative;
+}
+
+.box-10{
+    height: 550px; width: 100%; background-color: yellow; margin-top: 100px; opacity: 0.2;
+}
+
+.of{
+    margin-top: -500px; margin-left: 162px;
+}
+
+.year{
+    margin-left: 100px; color: red;
+}
+
+.cly{
+    margin-top: 30px; margin-left: 157px;
+}
+
+.Happy{
+    margin-left: 120px; color: red;
+}
+
+.pro{
+    margin-top: 30px; margin-left: 147px;
+}
+
+.com{
+    margin-left: 100px; color: red;
+}
+
+.box-11{
+    background-color: rgb(228, 37, 37); height: 330px; width: 45%; margin-top: -310px; margin-left: 320px; border-radius: 10px;
+
+}
+
+.dig{
+    padding: 25px;
+}
+
+.at{
+    width: 400px; margin-top: -20px; padding: 5px;
+}
+
+.box-12{
+    height: 100px; width: 80%; background-color:yellow; margin-left: 10%; margin-top: 20px; 
+}
+
+.are{
+ padding: 25px;
+}
+
+.so{
+    margin-left: 50px; font-size: 30px; margin-top: -20px; font-weight: bold;
+}
+
+.btn1{
+    margin-left: 480px; position: absolute; margin-top: -40px; height: 30px; width: 12%; font-size: 10px; font-weight: bold;
+    background-color:rgb(212, 209, 209); border: none;
+}
+
+.btn1:hover{
+    background-color: brown; color: white;
+}
